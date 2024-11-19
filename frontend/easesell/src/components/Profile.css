@@ -1,0 +1,88 @@
+.profile-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-top: 30px; */
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+    /* margin-top: 30px; */
+  }
+  
+  .profile-header h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+  }
+  
+  .profile-header p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  .profile-section {
+    margin-bottom: 40px;
+  }
+  
+  .profile-section h2 {
+    font-size: 1.8rem;
+    color: #495057;
+    margin-bottom: 20px;
+  }
+  
+  .profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .profile-table th,
+  .profile-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .profile-table th {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  .profile-table td {
+    background-color: #ffffff;
+  }
+  
+  .profile-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .profile-links .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .profile-links .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .profile-links .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  .profile-links .btn-success {
+    background-color: #28a745;
+  }
+  
+  .profile-links .btn:hover {
+    opacity: 0.9;
+  }
+  
